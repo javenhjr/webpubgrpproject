@@ -1,11 +1,19 @@
-.nav { 
+.nav 
+{ 
       background-color: #fd3195ff;
       align-items: center;
       display: flex;
       padding: 30px 40px;
 }
 
-.webpage-contain {
+.navsearch
+{ 
+      margin-left: 20px;
+}
+      
+
+.webpage-contain
+{
       min-height: 100vh;
       flex-direction: column;
       display: flex;
