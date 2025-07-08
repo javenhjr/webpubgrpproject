@@ -21,5 +21,11 @@
       flex-direction: column;
       display: flex;
 }
-      
+
+.side {
+      margin-left: auto;
+      display: flex;
+      align-items: centre;
+      gap: 72px;
+}
 
