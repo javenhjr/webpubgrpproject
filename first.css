@@ -23,9 +23,10 @@
 }
 
 .side {
-      margin-left: 30%;
+      margin-left: 20%;
       display: flex;
       align-items: centre;
-      gap: 15px;
+      gap: 10px;
+      flex: 1;
 }
 
