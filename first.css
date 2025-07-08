@@ -1,5 +1,4 @@
-.nav 
-{ 
+.nav {
       background-color: #fd3195ff;
       align-items: center;
       display: flex;
@@ -11,8 +10,7 @@
 }
 
 
-.webpage-contain
-{
+.webpage-contain {
       min-height: 100vh;
       flex-direction: column;
       display: flex;
