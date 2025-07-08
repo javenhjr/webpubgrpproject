@@ -3,11 +3,15 @@
       align-items: center;
       display: flex;
       padding: 30px 40px;
+}
+
+.navele {
       font-weight: bold;
       font-size: 20px;
       font-style: italic;
-      color: white;>
+      color: white;
 }
+      
 
 
 .webpage-contain {
