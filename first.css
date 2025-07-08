@@ -23,7 +23,7 @@
 }
 
 .side {
-      margin-left: auto;
+      margin-left: 30%;
       display: flex;
       align-items: centre;
       gap: 15px;
