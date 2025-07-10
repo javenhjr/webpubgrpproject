@@ -64,6 +64,11 @@
  	border-radius: 5px; 
 }
 
+.navbutt:hover {
+	background-color: #FF85A2;
+	color: white;
+}
+
 
 .searchbar input {
 	padding: 8px;
@@ -83,4 +88,5 @@
   	border-radius: 10px;
 	cursor: pointer;
 }
+
 
