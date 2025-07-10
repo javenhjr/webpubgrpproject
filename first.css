@@ -67,10 +67,15 @@
 }
 
 .searchbar input {
-
 	padding: 8px;
 	border-radius: 4px;
 	border: none;
 }
 
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
