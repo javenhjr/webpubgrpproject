@@ -72,12 +72,15 @@
 	border: none;
 }
 
-.nav-logo {
+.navlogo {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-top: 5px;
 	border-radius: 4px;
-	
+}
+
+.nav-logo img {
+  border-radius: 10px;
 }
 
