@@ -13,6 +13,18 @@
 	gap: 16px;
 }
 
+.navlogo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5px;
+	border-radius: 4px;
+}
+
+.navlogo img {
+  	border-radius: 10px;
+	cursor: pointer;
+}
 
 
 .navright {
@@ -79,17 +91,6 @@
 	border: none;
 }
 
-.navlogo {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 5px;
-	border-radius: 4px;
-}
 
-.navlogo img {
-  	border-radius: 10px;
-	cursor: pointer;
-}
 
 
