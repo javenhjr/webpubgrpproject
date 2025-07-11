@@ -14,9 +14,8 @@
 
 .navbutt {
 	text-decoration: none;
-  	background-color: white;
  	color: black;
- 	padding: 8px 12px;
+ 	padding: 7px 10px;
  	border-radius: 5px; 
 	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 	cursor: pointer;
@@ -24,7 +23,6 @@
 
 .navbutt {
 	background-color: white;
-	color: black;
 }
 
 .navlogo {
@@ -52,8 +50,8 @@
 
 .searchbar input {
 	padding: 8px;
-	border-radius: 4px;
 	border: none;
+	border-radius: 5px;
 }
 
 
@@ -70,7 +68,7 @@
 	color: #FF4F87;
 	font-weight: 550;
 	font-size: 15px;	
-	padding: 10px ;
+	padding: 10px;
 	border-radius: 10px;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.5);
 
@@ -81,7 +79,7 @@
 .navdownbar {
 	background: #FFB7C5;
 	color: white;
-	padding: 10px;
+	padding: 8px;
 }
 
 
