@@ -7,6 +7,20 @@
 	padding: 16px 32px;
 }
 
+.navleft {
+	display: flex;
+	align-items: center;	
+	gap: 16px;
+}
+
+
+
+.navright {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
 .navdes {
 	display: flex;
 	justify-content: center;
@@ -39,19 +53,7 @@
 }
 
 
-.navleft {
-	display: flex;
-	align-items: center;	
-	gap: 16px;
-}
 
-
-
-.navright {
-	display: flex;
-	align-items: center;
-	gap: 16px;
-}
 
 
 .navbutt {
