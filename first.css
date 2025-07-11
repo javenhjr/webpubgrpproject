@@ -1,35 +1,31 @@
 .navbar {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	background: #FFB7C5;
-	color: white;
-	padding: 16px 32px;
+	padding: 15px 25px;
+	justify-content: space-between;
 }
 
 .navleft {
-	display: flex;
 	align-items: center;	
-	gap: 16px;
+	gap: 50px;
+	display: flex;
 }
 
 .navbutt {
+	text-decoration: none;
   	background-color: white;
  	color: black;
- 	border: 1px solid #ccc; 
  	padding: 8px 12px;
- 	margin: 0 5px;
- 	cursor: pointer;
  	border-radius: 5px; 
 	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	cursor: pointer;
 }
 
-.navbutt:{
-	background-color: #FF85A2;
-	color: white;
+.navbutt {
+	background-color: white;
+	color: black;
 }
-
-
 
 .navlogo {
 	display: flex;
@@ -45,17 +41,21 @@
 }
 
 
-.navright {
-	display: flex;
-	align-items: center;
-	gap: 16px;
+
+
+.navbutt:hover {
+	background-color: #FF85A2;
+	color: white;
 }
+
+
 
 .searchbar input {
 	padding: 8px;
 	border-radius: 4px;
 	border: none;
 }
+
 
 .navdes {
 	display: flex;
@@ -65,27 +65,23 @@
 }
 
 .navdes a {
+	text-decoration: none;
 	background-color: white;
 	color: #FF4F87;
-	padding: 10px 16px;
-	border-radius: 8px;
-	text-decoration: none;
-	font-weight: 600;
-	font-size: 16px;
+	font-weight: 550;
+	font-size: 15px;	
+	padding: 10px ;
+	border-radius: 10px;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+
 }
 		
-
-.navdes a:hover {
-	background-color: #FF85A2;
-	color: white;
-}
 
 
 .navdownbar {
 	background: #FFB7C5;
 	color: white;
-	padding: 15px 10px;
+	padding: 10px;
 }
 
 
