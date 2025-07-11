@@ -13,6 +13,24 @@
 	gap: 16px;
 }
 
+.navbutt {
+  	background-color: white;
+ 	color: black;
+ 	border: 1px solid #ccc; 
+ 	padding: 8px 12px;
+ 	margin: 0 5px;
+ 	cursor: pointer;
+ 	border-radius: 5px; 
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.navbutt:{
+	background-color: #FF85A2;
+	color: white;
+}
+
+
+
 .navlogo {
 	display: flex;
 	justify-content: center;
@@ -31,6 +49,12 @@
 	display: flex;
 	align-items: center;
 	gap: 16px;
+}
+
+.searchbar input {
+	padding: 8px;
+	border-radius: 4px;
+	border: none;
 }
 
 .navdes {
@@ -68,28 +92,6 @@
 
 
 
-.navbutt {
-  	background-color: white;
- 	color: black;
- 	border: 1px solid #ccc; 
- 	padding: 8px 12px;
- 	margin: 0 5px;
- 	cursor: pointer;
- 	border-radius: 5px; 
-	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-
-.navbutt:{
-	background-color: #FF85A2;
-	color: white;
-}
-
-
-.searchbar input {
-	padding: 8px;
-	border-radius: 4px;
-	border: none;
-}
 
 
 
