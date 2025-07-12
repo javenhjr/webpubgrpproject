@@ -41,12 +41,6 @@
 
 
 
-.navbutt:hover {
-	background-color: #FF85A2;
-	color: white;
-}
-
-
 
 .searchbar input {
 	padding: 8px;
@@ -74,7 +68,10 @@
 
 }
 		
-
+.navdes a:hover {
+	background-color: #FF85A2;
+	color: white;
+}
 
 .navdownbar {
 	background: #FFB7C5;
