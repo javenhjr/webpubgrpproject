@@ -197,19 +197,23 @@
 
 
 .back-button {
-  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 30px;
   color: gray;
   text-decoration: none;
-  font-size: 24px;
-  padding: 12px 20px;
-  margin: 20px;
+  font-size: 16px;
+  font-weight: 500;
   border: 1px solid gray;
+  padding: 6px 12px;
   border-radius: 6px;
+  background-color: white;
   transition: background-color 0.3s ease;
+  z-index: 1000;
 }
 
 .back-button:hover {
-  background-color: #ddd;
+  background-color: #eee;
 }
 
 .signin-container {
