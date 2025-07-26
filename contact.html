@@ -2,7 +2,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact Us</title>
-  <link href="https://javenhjr.github.io/webpubgrpproject/first.css" rel="stylesheet">
+  <link href="https://github.com/javenhjr/webpubgrpproject/edit/first.css" rel="stylesheet">
   <style>
 
 body {
@@ -19,14 +19,13 @@ body {
 </head>
 <body>
 
-  <div class="navbar">
+<div class="navbar">
  
 	<div class="navleft">
 		<a href="as" class="navbutt">🛒 Cart</a>
-		<a href="ad" class="navbutt">👤 Profile</a>
-
-	</div>
-	       
+		<a href="signin.html" class="navbutt">👤 Profile</a>
+	</div> 
+	  
 	  	<div class="navlogo">
 			<a href="https://javenhjr.github.io/webpubgrpproject/index.html">
    	 		<img src="https://javenhjr.github.io/webpubgrpproject/Plushies For Life Logo.jpg" width="120" height="60" alt="Logo">
@@ -35,12 +34,9 @@ body {
 	
 
 		<div class="searchbar">
-
 			<input type="text" placeholder="Search...">
 		</div>
-
- 
-	</div>
+</div>
 
 
   <div class="navdownbar">
@@ -53,20 +49,23 @@ body {
     </div>
   </div>
  
-
-
-	
-<div class="contbcon">
   
-<table class="contb" border="1">
-    
-	<caption>Contact Information</caption>
+  
+  
+  
+  
+  
+  
+ <div class="contbcon">
+  
+<table class="contb" border="0"> 
+ 	<caption>Contact Information</caption>
     
 	<tr>
-      		<th>Type</th>
-      		<th>Details</th>
-	 	<th>Information</th>
-	</tr>
+      <th>Type</th>
+      <th>Details</th>
+	  <th>Information</th>
+    </tr>
     		
 		<tr>
 			<td>Telephone</td>
@@ -86,14 +85,40 @@ body {
 					target="_blank">
 					66 Violy Road, Singapore 103908</a></td>
 					<td>Mon – Fri, 9AM – 6PM</td>
-    				</tr>
+    			</tr>
 
 </table>
 </div>
 
-<a href="asdad" style="margin: 500px; color: gray; text-decoration: none;">For more details, click here!</a></style>
+  
+  
+ <div class="contact-container">
+  <h2>Contact Us</h2>
+
+  <form class="contact-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your Name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your Email">
+
+    <label for="subject">Subject:</label>
+    <select id="subject" name="subject">
+      <option value="" disabled selected>Select a subject</option>
+      <option value="refund">Refund</option>
+      <option value="delivery">Delivery</option>
+      <option value="others">Others</option>
+    </select>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
+
+    <a href="thanks.html" class="submit-button">Send Message</a>
+  </form>
+</div>
 
 
+  
 
 
 </body>
