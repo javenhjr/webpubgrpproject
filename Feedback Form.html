@@ -1,48 +1,127 @@
 <html>
 	<head>
-	<title>Feedback Form</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link href="https://javenhjr.github.io/webpubgrpproject/first.css" rel="stylesheet">
+		<title>Feedback Form</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://javenhjr.github.io/webpubgrpproject/first.css" rel="stylesheet">
+		<style>
+			div.form {
+			font-family: sans-serif;
+			font-size: 30px;
+			padding-top: 70px;
+			}
+			
+			table {
+			border-radius: 50px;
+			}
+			
+			td {
+			padding-left: 50px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			color: #FFFFFF;
+			font-weight: 1000;
+			}
+			
+			input.form {
+			border-radius: 20px;
+			}
+			
+			input.button {
+			text-decoration: none;
+			background-color: #FF4F87;
+			color: #FFFFFF;
+			padding: 15px;
+			border: 0;
+			border-radius: 30px;
+			font-weight: 550;
+			}
+			
+		</style>
 	</head>
-	<body style="background-color: #FFEEAA">
+	<body>
 		<div class="navbar">
  
-	<div class="navleft">
-		<a href="as" class="navbutt">🛒 Cart</a>
-		<a href="ad" class="navbutt">👤 Profile</a>
-	</div> 
+			<div class="navleft">
+				<a href="as" class="navbutt">🛒 Cart</a>
+				<a href="ad" class="navbutt">👤 Profile</a>
+			</div> 
 	  
-	  	<div class="navlogo">
-			<a href="https://javenhjr.github.io/webpubgrpproject/index.html">
-   	 		<img src="https://javenhjr.github.io/webpubgrpproject/Plushies For Life Logo.jpg" width="120" height="60" alt="Logo">
-			</a>
-  		</div>
+			<div class="navlogo">
+				<a href="https://javenhjr.github.io/webpubgrpproject/index.html">
+				<img src="https://javenhjr.github.io/webpubgrpproject/Plushies For Life Logo.jpg" width="120" height="60" alt="Logo">
+				</a>
+			</div>
 	
 
-		<div class="searchbar">
-			<input type="text" placeholder="Search...">
+			<div class="searchbar">
+				<input type="text" placeholder="Search...">
+			</div>
 		</div>
-</div>
 
 
-  <div class="navdownbar">
-    <div class="navdes">
-      <a href="https://javenhjr.github.io/webpubgrpproject/index.html">Homepage</a>
-      <a href="https://javenhjr.github.io/webpubgrpproject/catalog.html">Product Catalog</a>
-      <a href="https://javenhjr.github.io/webpubgrpproject/About Us.html">About Us</a>
-      <a href="https://javenhjr.github.io/webpubgrpproject/Enquiries Form.html">Enquiries</a>
-      <a href="https://javenhjr.github.io/webpubgrpproject/contact.html">Contact Us</a>
-    </div>
-  </div>
-		<div style="font-size: 10px; font-family: sans-serif">
-			<h1>What would you like to give a feedback on?</h1>
-			<select>
-				<option value="website" name="firstopt">Website</option>
-				<option value="products" name="secondopt">Products</option>
-			</select>
-			<h1>Please share your feedback with us to help us improve more!</h1>
-			<textarea cols="75" rows="10"></textarea>
-			<h2><input type="submit" value="Submit"/></h2>
+		<div class="navdownbar">
+			<div class="navdes">
+				<a href="https://javenhjr.github.io/webpubgrpproject/index.html">Homepage</a>
+				<a href="https://javenhjr.github.io/webpubgrpproject/catalog.html">Product Catalog</a>
+				<a href="https://javenhjr.github.io/webpubgrpproject/About Us.html">About Us</a>
+				<a href="https://javenhjr.github.io/webpubgrpproject/Enquiries Form.html">Enquiries</a>
+				<a href="https://javenhjr.github.io/webpubgrpproject/contact.html">Contact Us</a>
+			</div>
+		</div>
+		<div class="form">
+			<form name="feedback" action="feedbackform.html" method="get">
+				<table bgcolor="#FFB7C5" border="0" align="center" width=55% height=95%>
+					<tr>
+						<td>How do you like the website?</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="radio" value="Great" name="qn1"/>Great!</br>
+							<input type="radio" value="Good" name="qn1"/>Good</br>
+							<input type="radio" value="Bad" name="qn1"/>Bad</br>
+							<input type="radio" value="VBad" name="qn1"/>Very Bad
+						</td>
+					<tr>
+					</tr>
+					<tr>
+						<td>How do you like our products?</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="radio" value="Great" name="qn2"/>Great!</br>
+							<input type="radio" value="Good" name="qn2"/>Good</br>
+							<input type="radio" value="Bad" name="qn2"/>Bad</br>
+							<input type="radio" value="VBad" name="qn2"/>Very Bad
+						</td>
+					</tr>
+					<tr>
+						<td>What plushie would you like to see if any?</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="qn3" size="94"/>
+						</td>
+					</tr>
+					<tr>
+						<td>What feature would you want in the website if any?</td>
+					</tr>
+					<tr>
+						<td><input type="text" name="qn4" size="94"/></td>
+					</tr>
+					<tr>
+						<td>Any other feedbacks?</td>
+					</tr>
+					<tr>
+						<td><input type="text" name="qn5" size="94"/></td>
+					</tr>
+					<tr>
+						<td>
+							<input class="button" type="submit" value="Submit" />
+							<input class="button" type="reset" value="Reset" />
+						</td>
+					</tr>
+				</table>
+			</form>
 		</div>
 	</body>
 </html>
