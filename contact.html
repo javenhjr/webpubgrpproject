@@ -93,5 +93,24 @@
     </form>
   </div>
 
+<script>
+let lastScrollTop = 0;
+const navWrapper = document.querySelector('.nav-wrapper');
+
+window.addEventListener('scroll', function () {
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop > lastScrollTop) {
+    // Scrolling down
+    navWrapper.classList.add('hidden');
+  } else {
+    // Scrolling up
+    navWrapper.classList.remove('hidden');
+  }
+
+  lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For mobile
+});
+</script>
+
 </body>
 </html>
