@@ -300,6 +300,15 @@
   text-decoration: underline;
 }
 
+.back-button {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+	
+.register-footer a:hover {
+  text-decoration: underline;
+}
 
 
 
