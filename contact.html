@@ -2,7 +2,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact Us</title>
-  <link href="https://javenhjr.github.io/webpubgrpproject/first.css" rel="stylesheet">
+  <link href="test.css" rel="stylesheet">
   <style>
 
       body {
@@ -19,107 +19,78 @@
 </head>
 <body>
 
-<div class="navbar">
- 
-	<div class="navleft">
-		<a href="https://javenhjr.github.io/webpubgrpproject/catalog.html" class="navbutt">🛒 Cart</a>
-		<a href="https://javenhjr.github.io/webpubgrpproject/sign.html" class="navbutt">👤 Profile</a>
-	</div> 
-	  
-	  	<div class="navlogo">
-			<a href="https://javenhjr.github.io/webpubgrpproject/index.html">
-   	 		<img src="https://javenhjr.github.io/webpubgrpproject/Plushies For Life Logo.jpg" width="120" height="60" alt="Logo">
-			</a>
-  		</div>
-	
-
-		<div class="searchbar">
-			<input type="text" placeholder="Search...">
-		</div>
-</div>
-
-
-  <div class="navdownbar">
-    <div class="navdes">
-      <a href="https://javenhjr.github.io/webpubgrpproject/index.html">Homepage</a>
-      <a href="https://javenhjr.github.io/webpubgrpproject/catalog.html">Product Catalog</a>
-      <a href="https://javenhjr.github.io/webpubgrpproject/About Us.html">About Us</a>
-      <a href="https://javenhjr.github.io/webpubgrpproject/Enquiries Form.html">Enquiries</a>
-      <a href="https://javenhjr.github.io/webpubgrpproject/contact.html">Contact Us</a>
+ <div class="navbar">
+    <div class="navleft">
+      <a href="catalog.html" class="navbutt">🛒 Cart</a>
+      <a href="sign.html" class="navbutt">👤 Profile</a>
+    </div>
+    <div class="navlogo">
+      <a href="index.html">
+        <img src="Plushies For Life Logo.jpg" alt="Logo">
+      </a>
+    </div>
+    <div>
+      <input id="search" type="text" placeholder="Search...">
     </div>
   </div>
- 
-  
-  
-  
-  
-  
-  
-  
- <div class="contbcon">
-  
-<table class="contb" border="0"> 
- 	<caption>Contact Information</caption>
-    
-	<tr>
-      <th>Type</th>
-      <th>Details</th>
-	  <th>Information</th>
-    </tr>
-    		
-		<tr>
-			<td>Telephone</td>
-			<td>+65 8765 1234</td>
-			<td>Mon – sunday, 9AM – 7PM</td>
-		</tr>
-   			
-			<tr>
-				<td>Email</td>
-				<td><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzDsRPzlbktQjGQMnqZsXJsmdbKJtTGllCHTJHCHCfLmbhGlZZmJcLdsmrBbzmFCDNCgljv" target="_blank">Plush4Life@gmail.com</a></td>
-				<td>Mon – sunday, 24 hours</td>
-			</tr>
-   				
-				<tr>
-					<td>Address</td>
-					<td><a href="https://www.google.com/maps/place/Nanyang+Polytechnic/@1.3794602,103.8478795,17.33z/data=!3m1!5s0x31da16ec8b58ef89:0x8d89d3f163cdd254!4m6!3m5!1s0x31da16eb64b0249d:0xe5f10ff680eed942!8m2!3d1.37995!4d103.8489487!16zL20vMDN4Njkz?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D"
-					target="_blank">
-					66 Violy Road, Singapore 103908</a></td>
-					<td>Mon – Fri, 9AM – 6PM</td>
-    			</tr>
 
-</table>
-</div>
+  <div class="navdes">
+    <a href="index.html">Homepage</a>
+    <a href="catalog.html">Product Catalog</a>
+    <a href="About Us.html">About Us</a>
+    <a href="Enquiries Form.html">Enquiries</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
 
-  
-  
- <div class="contact-container">
-  <h2>Contact Us</h2>
+  <div class="contbcon">
+    <table class="contb">
+      <caption>Contact Information</caption>
+      <tr>
+        <th>Type</th>
+        <th>Details</th>
+        <th>Information</th>
+      </tr>
+      <tr>
+        <td>Telephone</td>
+        <td>+65 8765 1234</td>
+        <td>Mon – Sunday, 9AM – 7PM</td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td><a href="mailto:Plush4Life@gmail.com">Plush4Life@gmail.com</a></td>
+        <td>Mon – Sunday, 24 hours</td>
+      </tr>
+      <tr>
+        <td>Address</td>
+        <td><a href="https://www.google.com/maps/place/Nanyang+Polytechnic/" target="_blank">66 Violy Road, Singapore 103908</a></td>
+        <td>Mon – Fri, 9AM – 6PM</td>
+      </tr>
+    </table>
+  </div>
 
-  <form class="contact-form">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" placeholder="Your Name">
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name">
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" placeholder="Your Email">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email">
 
-    <label for="subject">Subject:</label>
-    <select id="subject" name="subject">
-      <option value="" disabled selected>Select a subject</option>
-      <option value="refund">Refund</option>
-      <option value="delivery">Delivery</option>
-      <option value="others">Others</option>
-    </select>
+      <label for="subject">Subject:</label>
+      <select id="subject" name="subject">
+        <option value="" disabled selected>Select a subject</option>
+        <option value="refund">Refund</option>
+        <option value="delivery">Delivery</option>
+        <option value="others">Others</option>
+      </select>
 
-    <label for="message">Message:</label>
-    <textarea id="message" name="message"></textarea>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Type your message here..."></textarea>
 
-    <a href="thanks.html" class="submit-button">Send Message</a>
-  </form>
-</div>
-
-
-  
-
+      <a href="thanks.html" class="submit-button">Send Message</a>
+    </form>
+  </div>
 
 </body>
 </html>
