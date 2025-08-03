@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .nav-wrapper {
   position: fixed;
   width: 100%;
