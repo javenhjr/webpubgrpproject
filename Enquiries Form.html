@@ -1,31 +1,215 @@
 <html>
 	<head>
-		<title>Enquiries Form</title>
+		<title>Feedback Form</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://javenhjr.github.io/webpubgrpproject/first.css" rel="stylesheet">
 		<style>
-			tr.bg {
-			background-color: #FFDDAA
+			body {
+			background: #f4f4f4;
 			}
+		
+			div.feedback {
+			font-family: sans-serif;
+			}
+			
+			.feedback form {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+			}
+			
+			.feedback table {
+			padding: 20px;
+			margin: auto;
+			width: 60%;
+			background: white;
+			box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+			border-collapse: collapse;
+			}
+			
+			.feedback caption {
+			font-size: 32px;
+			color: #FF4F87;
+			font-weight: bold;
+			text-align: center;
+			padding: 40px;
+			}
+			
+			.feedback td {
+			padding-left: 50px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			font-weight: bold;
+			}
+			
+			.feedback input[type="text"] {
+			width: 90%;
+			padding: 5px;
+			margin-bottom: 5px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			font-size: 16px;
+			box-sizing: border-box;
+			}
+			
+			/* Hide default radio button */
+			.c-radio input[type="radio"] {
+			  display: none;
+			}
+
+			/* Custom radio button style */
+			.c-radio {
+			  display: flex;
+			  align-items: center;
+			  cursor: pointer;
+			}
+
+			.c-radio span::before {
+			  content: '';
+			  display: inline-block;
+			  width: 20px;
+			  height: 20px;
+			  margin-right: 10px;
+			  border: 2px solid #FF4F87;
+			  border-radius: 50%;
+			  background-color: white;
+			  transition: background-color 0.3s, border-color 0.3s;
+			}
+
+			.c-radio input[type="radio"]:checked + .radio-label::before {
+			  background-color: #FF4F87;
+			  border-color: #FFB7C5;
+			}
+
+			.radio-label {
+			  font-size: 16px;
+			  padding-bottom: 10px;
+			  color: #333;
+			}
+			
+			input.button {
+			text-decoration: none;
+			font-size: 20px;
+			background-color: #FF4F87;
+			color: #FFFFFF;
+			padding: 10px 15px;
+			margin-right: 10px;
+			border: 0;
+			border-radius: 10px;
+			font-weight: 550;
+			}
+			
 		</style>
 	</head>
-	<body style="background-color: #FFEEAA">
-		<div style="background-color: #FFFFFF">
-			<table>
-				<tr>
-					<p><td><img src="Plushies_For_Life_logo.jpg" alt="Logo" align="middle" width="150" height="125" /></td><td style="font-size: 50px; font-family: sans-serif">Plushies for Life</td></p>
-				</tr>
-			</table>
+	<body>
+		<div class="navbar">
+ 
+			<div class="navleft">
+				<a href="as" class="navbutt">🛒 Cart</a>
+				<a href="ad" class="navbutt">👤 Profile</a>
+			</div> 
+	  
+			<div class="navlogo">
+				<a href="https://javenhjr.github.io/webpubgrpproject/index.html">
+				<img src="https://javenhjr.github.io/webpubgrpproject/Plushies For Life Logo.jpg" width="120" height="60" alt="Logo">
+				</a>
+			</div>
+	
+
+			<div class="searchbar">
+				<input type="text" placeholder="Search...">
+			</div>
 		</div>
-		<div>
-			</br>
-			</br>
-			<table align="center" width=75% height=75%>
-				<tr class="bg">
-					<td>Enquiries</td><td>Enquiries</td>
-				</tr>
-				<tr class="bg">
-					<td>Enquiries</td><td>Enquiries</td>
-				</tr>
-			</table>
+
+
+		<div class="navdownbar">
+			<div class="navdes">
+				<a href="https://javenhjr.github.io/webpubgrpproject/index.html">Homepage</a>
+				<a href="https://javenhjr.github.io/webpubgrpproject/catalog.html">Product Catalog</a>
+				<a href="https://javenhjr.github.io/webpubgrpproject/About Us.html">About Us</a>
+				<a href="https://javenhjr.github.io/webpubgrpproject/Enquiries Form.html">Feedback</a>
+				<a href="https://javenhjr.github.io/webpubgrpproject/contact.html">Contact Us</a>
+			</div>
+		</div>
+		<div class="feedback">
+			<form name="feedbackform" action="feedbackthanks.html" method="get">
+				<table border="0" align="center">
+					<caption>Give us your feedback!</caption>
+					<tr>
+						<td>How has the website experience been so far?</td>
+					</tr>
+					<tr>
+						<td>
+							<label class="c-radio">
+							<input type="radio" value="Great" name="qn1"/>
+							<span class="radio-label">Great!</span>
+							</label>
+							<label class="c-radio">
+							<input type="radio" value="Great" name="qn1"/>
+							<span class="radio-label">Good</span>
+							</label>
+							<label class="c-radio">
+							<input type="radio" value="Great" name="qn1"/>
+							<span class="radio-label">Average</span>
+							</label>
+							<label class="c-radio">
+							<input type="radio" value="Great" name="qn1"/>
+							<span class="radio-label">Bad</span>
+							</label>
+						</td>
+					<tr>
+					</tr>
+					<tr>
+						<td>How have our products been so far?</td>
+					</tr>
+					<tr>
+						<td>
+							<label class="c-radio">
+							<input type="radio" value="Great" name="qn1"/>
+							<span class="radio-label">Great!</span>
+							</label>
+							<label class="c-radio">
+							<input type="radio" value="Great" name="qn1"/>
+							<span class="radio-label">Good</span>
+							</label>
+							<label class="c-radio">
+							<input type="radio" value="Great" name="qn1"/>
+							<span class="radio-label">Average</span>
+							</label>
+							<label class="c-radio">
+							<input type="radio" value="Great" name="qn1"/>
+							<span class="radio-label">Bad</span>
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<td>What plushie would you like to see if any?</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="qn3" size="94"/>
+						</td>
+					</tr>
+					<tr>
+						<td>What feature would you want in the website if any?</td>
+					</tr>
+					<tr>
+						<td><input type="text" name="qn4" size="94"/></td>
+					</tr>
+					<tr>
+						<td>Any other feedbacks?</td>
+					</tr>
+					<tr>
+						<td><input type="text" name="qn5" size="94"/></td>
+					</tr>
+					<tr>
+						<td>
+							<input class="button" type="submit" value="Submit" />
+							<input class="button" type="reset" value="Reset" />
+						</td>
+					</tr>
+				</table>
+			</form>
 		</div>
 	</body>
 </html>
