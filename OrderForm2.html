@@ -44,7 +44,7 @@
 			
 			.order-table input,
 			.order-table select {
-			width: 80%;
+			width: 90%;
 			padding: 5px;
 			margin-bottom: 5px;
 			border: 1px solid #ccc;
@@ -53,8 +53,8 @@
 			box-sizing: border-box;
 			}
 			
-			.order-table input {
-			width: 80%;
+			.order-table input[type="submit"] {
+			width: 35%;
 			background-color: #FF4F87;
 			color: white;
 			padding: 12px 15px;
@@ -68,92 +68,100 @@
 		</style>
 	</head>
 	<body>
-	<div class="nav-wrapper">
- 		<div class="navbar">
-    			<div class="navleft">
-      				<a href="https://javenhjr.github.io/webpubgrpproject/catalog.html" class="navbutt">🛒 Cart</a>
-      				<a href="https://javenhjr.github.io/webpubgrpproject/sign.html" class="navbutt">👤 Profile</a>
-    			</div>
-    			<div class="navlogo">
-      				<a href="https://javenhjr.github.io/webpubgrpproject/index.html">
-        			<img src="https://javenhjr.github.io/webpubgrpproject/Plushies For Life Logo.jpg" alt="Logo">
-      				</a>
-    			</div>
-    			<div>
-      				<input id="search" type="text" placeholder="Search...">
-    			</div>
-  		</div>
+		<div class="nav-wrapper">
+			<div class="navbar">
+	 
+				<div class="navleft">
+					<a href="as" class="navbutt">🛒 Cart</a>
+					<a href="ad" class="navbutt">👤 Profile</a>
+				</div> 
+		  
+				<div class="navlogo">
+					<a href="https://javenhjr.github.io/webpubgrpproject/index.html">
+					<img src="https://javenhjr.github.io/webpubgrpproject/Plushies For Life Logo.jpg" width="120" height="60" alt="Logo">
+					</a>
+				</div>
+		
 
-  		<div class="navdes">
-    			<a href="https://javenhjr.github.io/webpubgrpproject/index.html">Homepage</a>
-    			<a href="https://javenhjr.github.io/webpubgrpproject/catalog.html">Product Catalog</a>
-    			<a href="https://javenhjr.github.io/webpubgrpproject/About Us.html">About Us</a>
-    			<a href="https://javenhjr.github.io/webpubgrpproject/Enquiries Form.html">Feedback</a>
-    			<a href="https://javenhjr.github.io/webpubgrpproject/contact.html">Contact Us</a>
-  		</div>
-	</div>
+				<div class="searchbar">
+					<input type="text" placeholder="Search...">
+				</div>
+			</div>
+
+
+			<div class="navdownbar">
+					<div class="navdes">
+						<a href="https://javenhjr.github.io/webpubgrpproject/index.html">Homepage</a>
+						<a href="https://javenhjr.github.io/webpubgrpproject/catalog.html">Product Catalog</a>
+						<a href="https://javenhjr.github.io/webpubgrpproject/About Us.html">About Us</a>
+						<a href="https://javenhjr.github.io/webpubgrpproject/Enquiries Form.html">Enquiries</a>
+						<a href="https://javenhjr.github.io/webpubgrpproject/contact.html">Contact Us</a>
+					</div>
+			</div>
+		</div>
 		<div class="order-container">
-			<form name="payment" action="https://javenhjr.github.io/webpubgrpproject/submitted.html" method="get">
+			<form name="payment" action="orderthanks.html" method="get">
 				<table class="order-table" align="center" bgcolor="#FFFFFF">
 					<caption>Order Info</caption>
 					<tr>
 						<th colspan="2">Account Information</th>
 					</tr>
 					<tr>
-						<td>Card Number</td>
+						<td>
+						<label for="cardnum">Card Number</label></td>
 						<td>
 							<input type="text" name="cardnum" id="cardnum" />
 						</td>
 					</tr>
 					<tr>
-						<td>CVV2</td>
+						<td><label for="cvv2">CVV2</label></td>
 						<td>
-							<input type="text" name="cardnum" id="cardnum" />
+							<input type="text" name="cvv2" id="cvv2" />
 						</td>
 					</tr>
 					<tr>
-						<td>Expiration Date</td>
+						<td><label for="expdate">Expiration Date</label></td>
 						<td>
-							<input type="month" name="month" id="year" />
+							<input type="month" name="expdate" id="expdate" />
 						</td>
 					</tr>
 					<tr>
-						<td>Zip</td>
+						<td><label for="zip">Zip</label></td>
 						<td>
-							<input type="text" name="cardnum" id="cardnum" />
+							<input type="text" name="zip" id="zip" />
 						</td>
 					</tr>
 					<tr>
 						<th colspan="2">Billing Information</th>
 					</tr>
 					<tr>
-						<td>Contact</td>
+						<td><label for="contact">Contact</label></td>
 						<td>
-							<input type="text" name="cardnum" id="cardnum" />
+							<input type="text" name="contact" id="contact" />
 						</td>
 					</tr>
 					<tr>
-						<td>Address</td>
+						<td><label for="address">Address</label></td>
 						<td>
-							<input type="text" name="cardnum" id="cardnum" />
+							<input type="text" name="address" id="address" />
 						</td>
 					</tr>
 					<tr>
-						<td>Address 2</td>
+						<td><label for="address2">Address 2</label></td>
 						<td>
-							<input type="text" name="cardnum" id="cardnum" />
+							<input type="text" name="address2" id="address2" />
 						</td>
 					</tr>
 					<tr>
-						<td>City</td>
+						<td><label for="city">City</label></td>
 						<td>
-							<input type="text" name="cardnum" id="cardnum" />
+							<input type="text" name="city" id="city" />
 						</td>
 					</tr>
 					<tr>
-						<td>State</td>
+						<td><label for="state">State</label></td>
 						<td>
-							<select>
+							<select name="state" id="state">
 								<option value="" disabled selected>Select a state</option>
 								<option value="singapore">Singapore</option>
 								<option value="malaysia">Malaysia</option>
@@ -163,27 +171,27 @@
 						</td>
 					</tr>
 					<tr>
-						<td>Zip</td>
+						<td><label for="zip2">Zip</label></td>
 						<td>
-							<input type="text" name="cardnum" id="cardnum" />
+							<input type="text" name="zip2" id="zip2" />
 						</td>
 					</tr>
 					<tr>
-						<td>Cellphone #</td>
+						<td><label for="cellphone">Cellphone #</label></td>
 						<td>
-							<input type="text" name="cardnum" id="cardnum" />
+							<input type="text" name="cellphone" id="cellphone" />
 						</td>
 					</tr>
 					<tr>
-						<td>Telephone #</td>
+						<td><label for="telephone">Telephone #</label></td>
 						<td>
-							<input type="text" name="cardnum" id="cardnum" />
+							<input type="text" name="telephone" id="telephone" />
 						</td>
 					</tr>
 					<tr>
-						<td>Email</td>
+						<td><label for="email">Email</label></td>
 						<td>
-							<input type="email" name="cardnum" id="cardnum" />
+							<input type="email" name="email" id="email" />
 						</td>
 					</tr>
 					<tr>
@@ -194,5 +202,24 @@
 				</table>
 			</form>
 		</div>
+		<script>
+			const navWrapper = document.querySelector('.nav-wrapper');
+			const navHeight = navWrapper.offsetHeight;
+			let lastScrollTop = 0;
+
+			window.addEventListener('scroll', function () {
+			const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+			if (scrollTop > lastScrollTop && scrollTop > navHeight) {
+			// Scrolling down and past navbar height
+			navWrapper.classList.add('hidden');
+			} else {
+			// Scrolling up or above navbar height
+			navWrapper.classList.remove('hidden');
+			}
+
+			lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+			});
+		</script>
 	</body>
 <html>
