@@ -68,7 +68,6 @@
 		</style>
 	</head>
 	<body>
-		<div class="nav-wrapper">
 			<div class="navbar">
 	 
 				<div class="navleft">
@@ -98,7 +97,6 @@
 						<a href="https://javenhjr.github.io/webpubgrpproject/contact.html">Contact Us</a>
 					</div>
 			</div>
-		</div>
 		<div class="order-container">
 			<form name="payment" action="orderthanks.html" method="get">
 				<table class="order-table" align="center" bgcolor="#FFFFFF">
@@ -202,24 +200,5 @@
 				</table>
 			</form>
 		</div>
-		<script>
-			const navWrapper = document.querySelector('.nav-wrapper');
-			const navHeight = navWrapper.offsetHeight;
-			let lastScrollTop = 0;
-
-			window.addEventListener('scroll', function () {
-			const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-			if (scrollTop > lastScrollTop && scrollTop > navHeight) {
-			// Scrolling down and past navbar height
-			navWrapper.classList.add('hidden');
-			} else {
-			// Scrolling up or above navbar height
-			navWrapper.classList.remove('hidden');
-			}
-
-			lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
-			});
-		</script>
 	</body>
 <html>
