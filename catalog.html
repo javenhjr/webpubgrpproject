@@ -18,6 +18,7 @@
       }
     </style>
   </head>
+
   <body>
     <div class="nav-wrapper">
       <div class="navbar">
@@ -58,7 +59,7 @@
         >
         <a
           href="https://javenhjr.github.io/webpubgrpproject/Enquiries Form.html"
-          >Enquiries</a
+          >Feedback</a
         >
         <a href="https://javenhjr.github.io/webpubgrpproject/contact.html"
           >Contact Us</a
@@ -66,18 +67,17 @@
       </div>
     </div>
     <!--catalog starts here-->
-    <br />
-    <table border="1" align="center">
-      <tr>
-        <td align="left">
+    <table class="catalog" border="0" align="center">
+      <tr class="filter">
+        <th align="left">
           Filter:
           <select name="filter">
             <option>Availability</option>
             <option>In-Stock</option>
             <option>Out-Of-Stock</option>
           </select>
-        </td>
-        <td align="right">
+        </th>
+        <th align="left">
           Sort By:
           <select name="sortby">
             <option>Best selling</option>
@@ -86,41 +86,122 @@
             <option>Price, high to low</option>
             <option>Price, low to high</option>
           </select>
-        </td>
+        </th>
       </tr>
-      <tr>
+      <tr
+        class="product-card"
+        onclick="window.location='https://javenhjr.github.io/webpubgrpproject/Order Form.html';"
+      >
         <td>
-          <a href="https://javenhjr.github.io/webpubgrpproject/Order Form.html"
-            ><img
-              src="Images/Plushie Keychain (1).jpg"
-              height="400"
-              width="400"
-          /></a>
+          <img
+            src="https://javenhjr.github.io/webpubgrpproject/Plushie_Noob.jpg"
+            alt="Noob Plushie"
+          />
         </td>
-        <td>
-          Fox Keychain <br />
+        <td class="product-description">
+          Noob plushie <br />
           5/5 rating <br />
           Price: $10 <br />
-          <a href="CustomerReviews.html">Customer Reviews</a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="https://javenhjr.github.io/webpubgrpproject/Order Form.html"
-            ><img
-              src="Images/Plushie Keychain (1).jpg"
-              height="400"
-              width="400"
+          <a href="CustomerReviews.html"
+            ><input type="button" value="Customer Reviews"
           /></a>
         </td>
+      </tr>
+      <tr
+        class="product-card"
+        onclick="window.location='https://javenhjr.github.io/webpubgrpproject/Order Form.html';"
+      >
         <td>
-          Fox Keychain <br />
+          <img
+            src="https://javenhjr.github.io/webpubgrpproject/Plushie Keychain (1).jpg"
+            alt="Fox plushie"
+          />
+        </td>
+        <td class="product-description">
+          Fox plushie <br />
           5/5 rating <br />
           Price: $10 <br />
-          <a href="CustomerReviews.html">Customer Reviews</a>
+          <a href="CustomerReviews.html"
+            ><input type="button" value="Customer Reviews"
+          /></a>
+        </td>
+      </tr>
+      <tr
+        class="product-card"
+        onclick="window.location='https://javenhjr.github.io/webpubgrpproject/Order Form.html';"
+      >
+        <td>
+          <img
+            src="https://javenhjr.github.io/webpubgrpproject/Dinosaur Plushie.jpg"
+            alt="Dinosaur plushie"
+          />
+        </td>
+        <td class="product-description">
+          Dino plushie <br />
+          5/5 rating <br />
+          Price: $10 <br />
+          <a href="CustomerReviews.html"
+            ><input type="button" value="Customer Reviews"
+          /></a>
+        </td>
+      </tr>
+      <tr
+        class="product-card"
+        onclick="window.location='https://javenhjr.github.io/webpubgrpproject/Order Form.html';"
+      >
+        <td>
+          <img
+            src="https://javenhjr.github.io/webpubgrpproject/Darth Vader Plushie.jpg"
+            alt="Darth Vader plushie"
+          />
+        </td>
+        <td class="product-description">
+          Darth Vader plushie <br />
+          5/5 rating <br />
+          Price: $10 <br />
+          <a href="CustomerReviews.html"
+            ><input type="button" value="Customer Reviews"
+          /></a>
+        </td>
+      </tr>
+      <tr
+        class="product-card"
+        onclick="window.location='https://javenhjr.github.io/webpubgrpproject/Order Form.html';"
+      >
+        <td>
+          <img
+            src="https://javenhjr.github.io/webpubgrpproject/SMRT KSFB Plushie.jpg"
+            alt="Train plushie"
+          />
+        </td>
+        <td class="product-description">
+          Train plushie <br />
+          5/5 rating <br />
+          Price: $10 <br />
+          <a href="CustomerReviews.html"
+            ><input type="button" value="Customer Reviews"
+          /></a>
         </td>
       </tr>
     </table>
-    <a href="#">Jump to top </a>
+
+    <br />
+    <br />
+    <div style="text-align: center">
+      <a
+        href="#"
+        style="
+          background: white;
+          color: #ff4f87;
+          text-decoration: none;
+          padding: 8px 15px;
+          border-radius: 8px;
+          font-weight: 600;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        "
+        >Jump to top
+      </a>
+    </div>
+    <br />&nbsp;
   </body>
 </html>
