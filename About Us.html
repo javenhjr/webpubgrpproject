@@ -4,25 +4,74 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="https://javenhjr.github.io/webpubgrpproject/first.css" rel="stylesheet">
 		<style>
-			td.bg {
-			background-color: #FFFFFF;
-			border-radius: 75px;
+			body {
+			background: #f4f4f4;
+			}
+		
+			div.about-container {
 			font-family: sans-serif;
-			font-size: 25px;
-			padding: 20px;
+			background-image: url('plush-background.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
 			}
 			
-			.nav {
-			font-size: 50px;
-			font-family: sans-serif;
+			table.about-us {
+			width: 80%;
+			background: white;
+			margin: auto;
+			border-radius: 30px;
+			border-collapse: collapse;
 			}
 			
-			img {
-			border-radius: 200px;
+			.about-us caption {
+			color: white;
+			font-size: 80px;
+			text-align: center;
+			font-weight: 1000;
+			padding: 40px 0px;
 			}
+			
+			.about-us td {
+			background: #FF4F87;
+			color: white;
+			font-size: 30px;
+			padding: 30px;
+			border-radius: 30px;
+			}
+			
+			table.m-and-v {
+			width: 60%;
+			margin: auto;
+			margin-top: 100px;
+			border-radius: 30px;
+			border-collapse: seperate;
+			}
+			
+			.m-and-v td {
+			width: 45%;
+			height: 45%;
+			background: white;
+			border-radius: 30px;
+			padding: 30px;
+			vertical-align: top;
+			}
+			
+			.m-and-v h1 {
+			color: #FF4F87;
+			font-size: 40px;
+			text-align: center;
+			font-weight: bold;
+			margin: 0px 0px;
+			}
+			
+			.m-and-v p {
+			font-size: 30px;
+			margin: 10px;
+			}
+		
 		</style>
 	</head>
-	<body style="background-color: #FFFFFF">
+	<body>
 		<div class="navbar">
  
 		<div class="navleft">
@@ -52,26 +101,30 @@
 			<a href="https://javenhjr.github.io/webpubgrpproject/contact.html">Contact Us</a>
 		  </div>
 		</div>
-		<div>
-			</br>
-			</br>
-			<table align="center" width=75% height=35%>
+		<div class="about-container">
+			<table class="about-us"align="center">
+				<caption>About Us</caption>
 				<tr>
-					<td><img src="Plushie_Example.webp" alt="Plushie Example" width=270px height=270px /></td>
-					<td class="bg" colspan="2">Our mission is to make everyone happy with our plushies, turning the darkest days a little bit brighter.
-					 We make sure that our products are affordable so that everyone can have them.</td>
+					<td>We aim to give joy to those who may feel down from time to time. We want to provide comfort and emotional stability with our plushies!
+					No matter what, we always want to be there for our beloved customers. Our company is always looking both present and ahead, making sure
+					we know exactly what to do.</td>
 				</tr>
 			</table>
-			<table align="center" width=75% height=35%>
+			<table class="m-and-v" align="center" cellspacing="20px">
 				<tr>
-					<td class="bg" colspan="2">Our team consists of the most hard working employees who are also understandable with anyone.
-					 Feel free to approach us if you have any problems!</td>
-					<td><img src="Team_Example.jpg" alt="Team Example" width=270px height=270px /></td>
+					<td>
+						<h1>Our Mission</h1>
+						<p>Provide high-quality plushies that are affordable for everyone! This will always be our top priority, ensuring that
+						everyone can be happy</p>
+					</td>
+					<td>
+						<h1>Our Vision</h1>
+						<p>To be a top-tier plush company that embodies equality and to be innovative with our products, creating a sense of 
+						justice to everybody</p>
+					</td>
 				</tr>
 			</table>
 		</div>
 	</body>
 </html>
-		</div>
-	</body>
-</html>
+
