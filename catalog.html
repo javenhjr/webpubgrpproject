@@ -17,6 +17,23 @@
         padding-top: 140px;
       }
     </style>
+    <script>
+  const navWrapper = document.querySelector(".nav-wrapper");
+  const navHeight = navWrapper.offsetHeight;
+  let lastScrollTop = 0;
+
+  window.addEventListener("scroll", function () {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop && scrollTop > navHeight) {
+      navWrapper.classList.add("hidden");
+    } else {
+      navWrapper.classList.remove("hidden");
+    }
+
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+  });
+    </script>
   </head>
 
   <body>
