@@ -55,6 +55,24 @@ Tan Yu Kang
 Plushies For Life CEO
 </p>
 	<p><a href="https://javenhjr.github.io/webpubgrpproject/index.html"><input type="button" value="Go To Home"></input></a></p>
+<script>
+  const navWrapper = document.querySelector('.nav-wrapper');
+  const navHeight = navWrapper.offsetHeight;
+  let lastScrollTop = 0;
 
+  window.addEventListener('scroll', function () {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop && scrollTop > navHeight) {
+      // Scrolling down and past navbar height
+      navWrapper.classList.add('hidden');
+    } else {
+      // Scrolling up or above navbar height
+      navWrapper.classList.remove('hidden');
+    }
+
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+  });
+</script>
   </body>
 </html>
