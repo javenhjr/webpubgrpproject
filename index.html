@@ -92,5 +92,24 @@ Singapore 103926
 &copy;&nbsp;2025 Plushies For Life&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://javenhjr.github.io/webpubgrpproject/refund form.html">Refunds</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.google.com/maps/place/Nanyang+Polytechnic/@1.3794602,103.8478795,17.33z/data=!3m1!5s0x31da16ec8b58ef89:0x8d89d3f163cdd254!4m6!3m5!1s0x31da16eb64b0249d:0xe5f10ff680eed942!8m2!3d1.37995!4d103.8489487!16zL20vMDN4Njkz?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D"
 					target="_blank">Site Map</a>
 </p>
+	<script>
+  const navWrapper = document.querySelector('.nav-wrapper');
+  const navHeight = navWrapper.offsetHeight;
+  let lastScrollTop = 0;
+
+  window.addEventListener('scroll', function () {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop && scrollTop > navHeight) {
+      // Scrolling down and past navbar height
+      navWrapper.classList.add('hidden');
+    } else {
+      // Scrolling up or above navbar height
+      navWrapper.classList.remove('hidden');
+    }
+
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+  });
+</script>
   </body>
 </html>
